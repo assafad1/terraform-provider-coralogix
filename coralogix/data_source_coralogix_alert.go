@@ -17,10 +17,10 @@ package coralogix
 import (
 	"context"
 	"fmt"
+	alerttypes "github.com/assafad1/terraform-provider-coralogix/coralogix/alert_types"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/clientset"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/utils"
 	"log"
-	alerttypes "terraform-provider-coralogix/coralogix/alert_types"
-	"terraform-provider-coralogix/coralogix/clientset"
-	"terraform-provider-coralogix/coralogix/utils"
 
 	cxsdk "github.com/coralogix/coralogix-management-sdk/go"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"

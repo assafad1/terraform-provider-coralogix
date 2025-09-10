@@ -18,7 +18,7 @@ import (
 	"context"
 	"log"
 
-	"terraform-provider-coralogix/coralogix"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix"
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 	"github.com/hashicorp/terraform-plugin-go/tfprotov6"

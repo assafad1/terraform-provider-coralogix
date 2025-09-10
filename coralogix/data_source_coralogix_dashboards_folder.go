@@ -21,8 +21,8 @@ import (
 
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"terraform-provider-coralogix/coralogix/clientset"
-	"terraform-provider-coralogix/coralogix/utils"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/clientset"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/utils"
 
 	cxsdk "github.com/coralogix/coralogix-management-sdk/go"
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"

@@ -1,4 +1,4 @@
-module terraform-provider-coralogix
+module github.com/assafad1/terraform-provider-coralogix
 
 go 1.24.0
 

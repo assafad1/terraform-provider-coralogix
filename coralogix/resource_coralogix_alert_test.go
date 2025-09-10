@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	"terraform-provider-coralogix/coralogix/clientset"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/clientset"
 
 	cxsdk "github.com/coralogix/coralogix-management-sdk/go"
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"

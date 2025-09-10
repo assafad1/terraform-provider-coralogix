@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"regexp"
 
-	alerttypes "terraform-provider-coralogix/coralogix/alert_types"
+	alerttypes "github.com/assafad1/terraform-provider-coralogix/coralogix/alert_types"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/boolvalidator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/objectvalidator"

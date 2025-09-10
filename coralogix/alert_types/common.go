@@ -15,7 +15,7 @@
 package alerttypes
 
 import (
-	"terraform-provider-coralogix/coralogix/utils"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/utils"
 
 	cxsdk "github.com/coralogix/coralogix-management-sdk/go"
 

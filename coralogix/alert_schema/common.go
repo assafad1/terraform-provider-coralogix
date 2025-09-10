@@ -17,12 +17,12 @@ package alertschema
 import (
 	"context"
 	"fmt"
+	alerttypes "github.com/assafad1/terraform-provider-coralogix/coralogix/alert_types"
 	"regexp"
-	alerttypes "terraform-provider-coralogix/coralogix/alert_types"
 
 	cxsdk "github.com/coralogix/coralogix-management-sdk/go"
 
-	"terraform-provider-coralogix/coralogix/utils"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/utils"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/int32validator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/setvalidator"

@@ -15,7 +15,7 @@
 package coralogix
 
 import (
-	"terraform-provider-coralogix/coralogix/utils"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/utils"
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-testing/helper/acctest"

@@ -21,7 +21,7 @@ import (
 	"log"
 	"strings"
 
-	"terraform-provider-coralogix/coralogix/clientset/rest"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/clientset/rest"
 )
 
 type GroupsClient struct {

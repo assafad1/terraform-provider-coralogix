@@ -17,7 +17,7 @@ package coralogix
 import (
 	"context"
 	"fmt"
-	"terraform-provider-coralogix/coralogix/clientset"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/clientset"
 	"testing"
 
 	cxsdk "github.com/coralogix/coralogix-management-sdk/go"

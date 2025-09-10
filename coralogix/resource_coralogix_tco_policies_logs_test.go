@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	"terraform-provider-coralogix/coralogix/clientset"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/clientset"
 
 	"google.golang.org/protobuf/encoding/protojson"
 

@@ -17,12 +17,12 @@ package coralogix
 import (
 	"context"
 	"fmt"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/clientset"
+	dashboardschema "github.com/assafad1/terraform-provider-coralogix/coralogix/dashboard_schema"
+	dashboardwidgets "github.com/assafad1/terraform-provider-coralogix/coralogix/dashboard_widgets"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/utils"
 	"log"
 	"strings"
-	"terraform-provider-coralogix/coralogix/clientset"
-	dashboardschema "terraform-provider-coralogix/coralogix/dashboard_schema"
-	dashboardwidgets "terraform-provider-coralogix/coralogix/dashboard_widgets"
-	"terraform-provider-coralogix/coralogix/utils"
 	"time"
 
 	cxsdk "github.com/coralogix/coralogix-management-sdk/go"

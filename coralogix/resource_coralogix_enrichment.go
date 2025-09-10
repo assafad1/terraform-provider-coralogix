@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"terraform-provider-coralogix/coralogix/clientset"
-	"terraform-provider-coralogix/coralogix/utils"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/clientset"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/utils"
 
 	"google.golang.org/protobuf/encoding/protojson"
 

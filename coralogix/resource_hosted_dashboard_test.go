@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"terraform-provider-coralogix/coralogix/clientset"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/clientset"
 
 	gapi "github.com/grafana/grafana-api-golang-client"
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"

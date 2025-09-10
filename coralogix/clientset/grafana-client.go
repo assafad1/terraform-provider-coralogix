@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"terraform-provider-coralogix/coralogix/clientset/rest"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/clientset/rest"
 
 	gapi "github.com/grafana/grafana-api-golang-client"
 )

@@ -17,7 +17,7 @@ package dashboardschema
 import (
 	"context"
 	"fmt"
-	dashboardwidgets "terraform-provider-coralogix/coralogix/dashboard_widgets"
+	dashboardwidgets "github.com/assafad1/terraform-provider-coralogix/coralogix/dashboard_widgets"
 	"time"
 
 	cxsdk "github.com/coralogix/coralogix-management-sdk/go"

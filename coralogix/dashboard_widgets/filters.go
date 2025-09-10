@@ -17,7 +17,7 @@ package dashboardwidgets
 import (
 	"context"
 	"fmt"
-	"terraform-provider-coralogix/coralogix/utils"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/utils"
 
 	cxsdk "github.com/coralogix/coralogix-management-sdk/go"
 	"google.golang.org/protobuf/types/known/wrapperspb"

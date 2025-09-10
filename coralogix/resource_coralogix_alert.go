@@ -21,11 +21,11 @@ import (
 	"strconv"
 	"time"
 
-	"terraform-provider-coralogix/coralogix/clientset"
-	"terraform-provider-coralogix/coralogix/utils"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/clientset"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/utils"
 
-	alertschema "terraform-provider-coralogix/coralogix/alert_schema"
-	alerttypes "terraform-provider-coralogix/coralogix/alert_types"
+	alertschema "github.com/assafad1/terraform-provider-coralogix/coralogix/alert_schema"
+	alerttypes "github.com/assafad1/terraform-provider-coralogix/coralogix/alert_types"
 
 	cxsdk "github.com/coralogix/coralogix-management-sdk/go"
 	"github.com/hashicorp/terraform-plugin-framework/attr"
@@ -2227,7 +2227,7 @@ func (r *AlertResource) Read(ctx context.Context, req resource.ReadRequest, resp
 	resp.Diagnostics.Append(resp.State.Set(ctx, &state)...)
 }
 
-func flattenAlert(ctx context.Context, alert *cxsdk.AlertDef, currentSchedule *types.Object) (*alerttypes.AlertResourceModel, diag.Diagnostics) {
+func FlattenAlert(ctx context.Context, alert *cxsdk.AlertDef, currentSchedule *types.Object) (*alerttypes.AlertResourceModel, diag.Diagnostics) {
 	alertProperties := alert.GetAlertDefProperties()
 
 	alertSchedule, diags := flattenAlertSchedule(ctx, alertProperties, currentSchedule)

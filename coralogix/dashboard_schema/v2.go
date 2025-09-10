@@ -16,9 +16,9 @@ package dashboardschema
 
 import (
 	"fmt"
+	dashboardwidgets "github.com/assafad1/terraform-provider-coralogix/coralogix/dashboard_widgets"
+	"github.com/assafad1/terraform-provider-coralogix/coralogix/utils"
 	"strings"
-	dashboardwidgets "terraform-provider-coralogix/coralogix/dashboard_widgets"
-	"terraform-provider-coralogix/coralogix/utils"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"
 	"github.com/hashicorp/terraform-plugin-framework-validators/listvalidator"
